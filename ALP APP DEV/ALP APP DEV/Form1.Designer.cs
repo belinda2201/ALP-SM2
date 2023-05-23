@@ -72,32 +72,36 @@
             // 
             // txt_username
             // 
+            this.txt_username.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_username.Location = new System.Drawing.Point(693, 608);
             this.txt_username.Name = "txt_username";
-            this.txt_username.Size = new System.Drawing.Size(411, 38);
-            this.txt_username.TabIndex = 3;
+            this.txt_username.Size = new System.Drawing.Size(411, 49);
+            this.txt_username.TabIndex = 0;
             this.txt_username.Enter += new System.EventHandler(this.txt_username_Enter);
             this.txt_username.Leave += new System.EventHandler(this.txt_username_Leave);
             // 
             // txt_password
             // 
-            this.txt_password.Location = new System.Drawing.Point(693, 759);
+            this.txt_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_password.Location = new System.Drawing.Point(693, 752);
             this.txt_password.Name = "txt_password";
             this.txt_password.PasswordChar = '*';
-            this.txt_password.Size = new System.Drawing.Size(411, 38);
-            this.txt_password.TabIndex = 4;
+            this.txt_password.Size = new System.Drawing.Size(411, 49);
+            this.txt_password.TabIndex = 0;
             this.txt_password.Tag = "";
             this.txt_password.Enter += new System.EventHandler(this.txt_password_Enter);
             this.txt_password.Leave += new System.EventHandler(this.txt_password_Leave);
             // 
             // btn_signIn
             // 
-            this.btn_signIn.Location = new System.Drawing.Point(763, 847);
+            this.btn_signIn.AutoEllipsis = true;
+            this.btn_signIn.Location = new System.Drawing.Point(763, 853);
             this.btn_signIn.Name = "btn_signIn";
             this.btn_signIn.Size = new System.Drawing.Size(282, 71);
-            this.btn_signIn.TabIndex = 5;
+            this.btn_signIn.TabIndex = 0;
             this.btn_signIn.Text = "Sign In";
             this.btn_signIn.UseVisualStyleBackColor = true;
+            this.btn_signIn.Click += new System.EventHandler(this.btn_signIn_Click);
             // 
             // label3
             // 

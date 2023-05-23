@@ -19,11 +19,7 @@ namespace ALP_APP_DEV
             InitializeComponent();
         }
 
-        MySqlConnection sqlConnection;
-        MySqlCommand sqlCommand;
-        MySqlDataAdapter sqlDataAdapter;
-        MySqlDataReader sqlDataReader;
-        string connection = "server=localhost;user=root;pwd=0318053478Bel.;database=db_concert";
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -75,8 +71,17 @@ namespace ALP_APP_DEV
 
         private void label_signUp_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form2 form2 = new Form2();
             form2.ShowDialog();
+           
+        }
+
+        private void btn_signIn_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            this.Hide();
+            form3.ShowDialog();
         }
     }
 }

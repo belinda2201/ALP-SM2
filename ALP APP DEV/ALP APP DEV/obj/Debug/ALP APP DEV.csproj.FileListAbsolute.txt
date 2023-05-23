@@ -22,3 +22,7 @@ C:\Users\Belinda\source\repos\ALP APP DEV\ALP APP DEV\obj\Debug\ALP APP DEV.cspr
 C:\Users\Belinda\source\repos\ALP APP DEV\ALP APP DEV\obj\Debug\ALP APP DEV.exe
 C:\Users\Belinda\source\repos\ALP APP DEV\ALP APP DEV\obj\Debug\ALP APP DEV.pdb
 C:\Users\Belinda\source\repos\ALP APP DEV\ALP APP DEV\obj\Debug\ALP_APP_DEV.Form2.resources
+C:\Users\Belinda\source\repos\ALP APP DEV\ALP APP DEV\obj\Debug\ALP_APP_DEV.Form3.resources
+C:\Users\Belinda\source\repos\ALP APP DEV\ALP APP DEV\obj\Debug\ALP_APP_DEV.Form4.resources
+C:\Users\Belinda\source\repos\ALP APP DEV\ALP APP DEV\obj\Debug\ALP_APP_DEV.Form5.resources
+C:\Users\Belinda\source\repos\ALP APP DEV\ALP APP DEV\obj\Debug\ALP_APP_DEV.Form6.resources
